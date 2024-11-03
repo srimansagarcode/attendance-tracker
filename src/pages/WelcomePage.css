@@ -1,0 +1,55 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    color: #333;
+  } */
+   .container-welcome-outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   }
+  .container-welcome {
+    text-align: center;
+    display: flex;
+  }
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  .thumbnails {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  .thumbnail {
+    width: 120px;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+  .thumbnail:hover {
+    background-color: #45a049;
+  }
+  .thumbnail.faculty {
+    background-color: #1e90ff;
+  }
+  .thumbnail.student {
+    background-color: #ff6347;
+  }

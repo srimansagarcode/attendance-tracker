@@ -1,0 +1,14 @@
+.login-card-title-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login-card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.login-card-faculty{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #b0d3f6 100%);
+}
